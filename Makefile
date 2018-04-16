@@ -1,5 +1,5 @@
 mazeway:mazeway.c
-	gcc -g -o $@ $^
+	gcc $^ -o $@
 
 .PHONY:clean
 	clean:
